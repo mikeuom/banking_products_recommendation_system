@@ -104,5 +104,8 @@ The project will not function properly without these data files in place, especi
 
 
 ## Note
-- The `venv/` directory is not tracked in git and should be created locally
-- Make sure to keep the model files in sync between the development and UI components 
+- The `venv/` directory is not tracked in git and should be created locally=
+
+Following is the DOI Badge:
+<img width="1201" alt="image" src="https://github.com/user-attachments/assets/2e78d34a-c63d-4756-ab8d-3b9730f97d76" />
+
