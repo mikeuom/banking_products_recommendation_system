@@ -30,7 +30,9 @@ notebooks_models_development/
 │   ├── loan_recommendations_analysis.png           # Analysis visualization
 │   └── loan_recommendations.csv                    # Loan recommendations data
 │
-├── dataset/                                        # Raw and processed datasets
+├── dataset/                                        # The notebooks used for generating the datasets and the raw, processed data
+│   ├── initiate_customer_data.ipynb                # Update customers's profile and and early preprocessing steps
+│   ├── initiate_transaction_data.ipynb             # Update transaction data and and early preprocessing steps
 │
 ├── feature_engineering/                           # Feature engineering scripts and notebooks
 │   ├── feature engineer.ipynb                      # Feature engineering notebook
@@ -81,7 +83,7 @@ user-interface-streamlit/
 
 2. For model development:
    - Navigate to `notebooks_models_development/`
-   - Follow the notebooks in order: EDA → Feature Engineering → Model Development
+   - Follow the folders in this order for inspection: Dataset → Feature Engineering → EDA -> Banking Products Category Recommendation -> Customer Segmentation -> Loans Product Prediction -> Credit Cards Products Prediction
 
 3. For the user interface:
    - Navigate to `user-interface-streamlit/`
@@ -96,7 +98,10 @@ Link: https://drive.google.com/drive/folders/1cNBnl8jKsHeZNzCEufggGPUPYkDGfUsP?u
 1. Download the CSV files from the provided Google Drive link
 2. Place them in their corresponding folders as shown in the project structure
 
-The project will not function properly without these data files in place, especially the user interface
+The project will not function properly without these data files in place, especially the user interface. Also, within the Google Drive link, if you are only interested in:
+- The final datasets that we procssed and mainly used for everything, then they are placed in notebooks_models_development/dataset/project-dataset
+- The orignal raw datasets, then they are placed in notebooks_models_development/dataset/original-dataset-from-kaggle
+
 
 ## Note
 - The `venv/` directory is not tracked in git and should be created locally
