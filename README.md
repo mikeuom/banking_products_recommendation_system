@@ -65,7 +65,7 @@ user-interface-streamlit/
 │   │   └── background_data/                          # Background data for recommendations
 │   │
 │   ├── models/                                        # Trained model files
-│   │   ├── primary_model/                            # Main recommendation model
+│   │   ├── primary_model/                            # Banking Products Category recommendation model
 │   │   ├── loan_model/                               # Loan recommendation model
 │   │   ├── customer_segment_model/                   # Customer segmentation model
 │   │   └── credit_card_model/                        # Credit card recommendation model
@@ -77,20 +77,24 @@ user-interface-streamlit/
 
 ## Getting Started
 
-1. For model development:
+1. First and foremost, dowload the required CSV files in section Data Files
+
+2. For model development:
    - Navigate to `notebooks_models_development/`
    - Follow the notebooks in order: EDA → Feature Engineering → Model Development
 
-2. For the user interface:
+3. For the user interface:
    - Navigate to `user-interface-streamlit/`
    - Install dependencies: `pip install -r requirements.txt`
    - Run the Streamlit app: `streamlit run app/main.py`
 
 ## Data Files
-The CSV files used in this project are not uploaded to GitHub due to their size and privacy considerations. These files will be made available via Google Drive (link to be provided). Users need to:
+The CSV files used in this project are not uploaded to GitHub due to their size and privacy considerations. These files are available via Google Drive in link mentioned below. Users need to:
+
+Link: https://drive.google.com/drive/folders/1cNBnl8jKsHeZNzCEufggGPUPYkDGfUsP?usp=sharing
 
 1. Download the CSV files from the provided Google Drive link
-2. Place them in their corresponding folders as shown in the project structure:
+2. Place them in their corresponding folders as shown in the project structure
 
 The project will not function properly without these data files in place, especially the user interface
 
