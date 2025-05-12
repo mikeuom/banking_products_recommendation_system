@@ -1,4 +1,4 @@
-# Banking Products Recommendation Pipeline
+# Retail Banking Products Recommendation Pipeline
 
 This repository contains a comprehensive banking products recommendation system with two main components: model development and user interface.
 
