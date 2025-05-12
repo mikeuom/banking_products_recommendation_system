@@ -91,7 +91,7 @@ user-interface-streamlit/
    - Run the Streamlit app: `streamlit run app/main.py`
 
 ## Data Files
-The CSV files used in this project are not uploaded to GitHub due to their size and privacy considerations. These files are available via Google Drive in link mentioned below. Users need to:
+The CSV files used in this project are not uploaded to GitHub due to their size. These files are available via Google Drive in link mentioned below. Users need to:
 
 Link: https://drive.google.com/drive/folders/1cNBnl8jKsHeZNzCEufggGPUPYkDGfUsP?usp=sharing
 
